@@ -1,7 +1,7 @@
 import './index.css';
 
 // CDN 基础路径 - 七牛云 CDN 域名（部署后替换）
-const CDN_BASE = import.meta.env.VITE_CDN_BASE || '/assets';
+const CDN_BASE = 'http://tf2fumqso.hn-bkt.clouddn.com';
 
 // 视频资源映射
 const VIDEO_RESOURCES: Record<string, string> = {
